@@ -99,13 +99,32 @@ h1 {
   color: rgb(246, 164, 14);
   margin-bottom: 4rem;
 }
-.card {
+section-portfolio {
+  width:100%;
+
+}
+.portfolio-row {
+  display: flex;
+}
+
+.portfolio-column {
+  flex: 100%;
+  padding: 5px;
+}
+.portfolio-card {
   margin: 30px;
   padding: 20px 40px 40px;
+  max-width: 100%;
+  text-align: left;
+  transition: all .5s;
+}
+.card {
+  margin: 30px;
+  padding: 20px 70px 40px;
   max-width: 500px;
   text-align: left;
   background: #f8f0e0;
-  border-bottom: 4px solid #399f30;
+  border-bottom: 4px solid #125a9e;
   border-radius: 6px;
   transition: all .5s;
 }
