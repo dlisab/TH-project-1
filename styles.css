@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.nav-main {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -55,9 +55,23 @@ a:hover {
   color: white
 }
 
-header {
+article header {
   text-align: center;
   background: url('images/morgantown.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+article-2 header {
+  text-align: center;
+  background: url('images/experience.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+article-3 header {
+  text-align: center;
+  background: url('images/portfolio-2.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -99,8 +113,21 @@ h1 {
   color: rgb(246, 164, 14);
   margin-bottom: 4rem;
 }
-section-portfolio {
+.lede-section {
+  background-color: black;
+  margin-top: 0;
+  padding: 2rem 3rem;
+}
+
+.lede-text p {
+    font-size: 1.25rem;
+    margin: 2.5rem; 
+    color:#f8f0e0;
+}
+        
+.portfolio {
   width:100%;
+  padding-top: 2em;
 }
 section-portfolio h2 {
   padding-top: 2em;
