@@ -125,9 +125,10 @@ h1 {
     color:#f8f0e0;
 }
         
-.portfolio {
+.portfolio h2{
   width:100%;
   padding-top: 2em;
+  text-align: center;
 }
 section-portfolio h2 {
   padding-top: 2em;
